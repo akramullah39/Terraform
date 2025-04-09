@@ -1,0 +1,28 @@
+# Local Terraform directories
+**/.terraform/*
+!.terraform/plugins/  # Keep plugins if needed (rare)
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash logs (if any)
+crash.log
+crash.*.log
+
+# Plan files (can contain sensitive data)
+*.tfplan
+
+# Lock file (can be regenerated)
+.terraform.lock.hcl
+
+# CLI configuration files
+terraform.rc
+*.terraformrc
+
+# IDE/Editor files (optional)
+.idea/
+.vscode/
+*.swp
+
